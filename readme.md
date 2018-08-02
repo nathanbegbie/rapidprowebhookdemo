@@ -13,3 +13,7 @@ $ source ve/bin/activate
 (ve)$ export FLASK_APP=app
 (ve)$ flask run
 ```
+
+to use with ngrok:
+- [install ngrok](https://ngrok.com/download)
+- run `ngrok http 5000` (assuming you're using flask default port)
