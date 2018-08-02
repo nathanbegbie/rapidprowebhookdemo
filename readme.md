@@ -16,4 +16,5 @@ $ source ve/bin/activate
 
 to use with ngrok:
 - [install ngrok](https://ngrok.com/download)
+- open another shell
 - run `ngrok http 5000` (assuming you're using flask default port)
